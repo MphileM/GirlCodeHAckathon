@@ -1,0 +1,84 @@
+.splitmessages{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: rgb(189,116,170);
+  }
+
+  .chatbox{
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: white;
+  }
+
+.bottom{
+  text-align:center;
+  /* position: relative; */
+  left: 0px;
+  height: 100px;
+  width: 100%;
+  background-color:rgb(161, 80, 140);
+  position: absolute;
+  bottom: 0px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.right-time {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.left-time {
+  float: left;
+  color: #999;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
