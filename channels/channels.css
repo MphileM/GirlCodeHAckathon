@@ -1,0 +1,14 @@
+.channel {
+width: 200px; 
+float: left; 
+height: 200px; 
+background: rgb(189,116,170); 
+margin: 10px; 
+text-align: center; 
+vertical-align: middle; 
+line-height: 150px;
+   
+}
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
