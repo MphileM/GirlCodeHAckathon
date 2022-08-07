@@ -180,8 +180,10 @@
             </div>
             
             <div class="inputBox">
-                <label for="contact-address">Address</label>
-                <input type="address" class = "form-control" id = "address">
+                <label for="contact-email">Email</label>
+                <input type="email" class = "form-control" id = "contact-email"
+                name="email" placeholder="Enter Email" onkeyup="validateEmail()">
+                <span class="error-message", id="email-error"></span>
               
             </div>
             <div class="inputBox">
