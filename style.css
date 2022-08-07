@@ -29,7 +29,7 @@
   left: 0px;
   height: 100px;
   width: 100%;
-  background-color:rgb(161, 80, 140);
+  /* background-color:rgb(161, 80, 140); */
   position: absolute;
   bottom: 0px;
 }
@@ -193,7 +193,7 @@ button:hover{
 
 .sidenav {
   height: 100%;
-  width: 25%;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -209,5 +209,9 @@ button:hover{
   font-size: 15px;
   color: white;
   display: block;
+}
+
+.row:hover{
+  transform: translateY(10px);
 }
 
