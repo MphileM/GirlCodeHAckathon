@@ -2,7 +2,7 @@
 width: 200px; 
 float: left; 
 height: 200px; 
-background: rgb(189,116,170); 
+background: rgb(209, 91, 177); 
 margin: 10px; 
 text-align: center; 
 vertical-align: middle; 
@@ -14,17 +14,45 @@ h1 {
 }
 
 body {
-  background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg') ;
+  background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg') ;
   color: #FFFFFF;
   background-size: cover;
 }
 
+.service-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+}
+
+.h1{
+  font-size: 30;
+  text-align: center;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+.center{
+  text-align: center;
+}
+
+.center h1{
+  color: white;
+  
+  margin-bottom: 15px;
+}
+
 .row{
-  padding: 55px 30px;
+  background-color: #b450b4;
+  padding:  55px 30px;
   border-radius: 10px;
   cursor: pointer;
   transition: all .35s;
+
 }
+
+
 
 .row:hover{
   transform: translateY(10px);
