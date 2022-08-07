@@ -82,3 +82,109 @@
   margin-right: 20px;
   border-radius: 50%;
 }
+
+body {
+    background-image: url('https://image.shutterstock.com/image-photo/silhouette-free-woman-enjoying-freedom-260nw-526130302.jpg') ;
+    color: #FFFFFF;
+    background-size: cover;
+}
+
+.contactForm{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contactForm h2{
+  font-size: 30;
+  text-align: center;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+.contactForm p{
+  font-size: 15px;
+  margin: 15px o;
+}
+
+.contactForm input{
+  font-size: 15px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline-color: #000;
+
+}
+
+button{
+  background-color: rgb(155, 46, 128);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+
+}
+
+button:hover{
+  background-color: transparent;
+  border: 2px solid rgb(219, 32, 110);
+  cursor: pointer;
+
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+  color: #1f1e1e;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+  width: 100px;
+  background: #1d1b1b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+
+}
+
+.contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+  
+}
+
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+
+}
