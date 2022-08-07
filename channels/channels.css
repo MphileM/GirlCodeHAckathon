@@ -12,3 +12,21 @@ line-height: 150px;
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+  background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg') ;
+  color: #FFFFFF;
+  background-size: cover;
+}
+
+.row{
+  padding: 55px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .35s;
+}
+
+.row:hover{
+  transform: translateY(10px);
+}
+
