@@ -43,12 +43,32 @@ body {
   margin-bottom: 15px;
 }
 
-.row{
+.row1{
   background-color: #b450b4;
   padding:  55px 30px;
   border-radius: 10px;
   cursor: pointer;
   transition: all .35s;
+
+}
+
+.row1 p{
+  font-size: 15px;
+  font-weight: 200;
+}
+.row2{
+  background-image: url("https://www.goodmorningquote.com/wp-content/uploads/2022/04/sometimes-an-angel-strong-woman-quote.webp");
+  padding:  160px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .35s;
+  background-size: cover;
+
+}
+.row2 picture{
+ 
+  color: #FFFFFF;
+  background-size: cover;
 
 }
 
